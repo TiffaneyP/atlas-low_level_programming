@@ -1,25 +1,22 @@
 #include "main.h"
 /**
- * 24_hours - prints every minute and hour of the day
- * @i
+ * jack_bauer - prints every minute and hour of the day
+ * @m
  * @h
  * Return: Always 0
  */
-void jack_baur(void)
-{	
-	int i = 1;
-	int h = 0;
+void jack_bauer(void)
+{
+	int h, m;
 
-	While (h >= 0 && h < 13);
+	for (h = 0; h <= 23; h++)
+	for (m = 0; m <= 59; m++)
 	{
-		_putchar(h);
-		while (i >= 0 && i <= 59);
-		{
-			if (i> 59)
-			{
-				h++;
-			}
-		}
+		_putchar((h / 10) + '0');
+		_putchar((h % 10) + '0');
+		_putchar(':');
+		_putchar((m / 10) + '0');
+		_putchar((m % 10) + '0');
+		_putchar('\n');
 	}
-	return (0);
 }
