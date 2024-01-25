@@ -1,16 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mainz- identifes multiple of 3 and 5 and both
+ * main- identifes multiple of 3 and 5 and both
  *
- * Return: Return always 0
+ * Return: Return is zero.
  */
-void mainz(void)
+int main(void)
 {
 	int a;
 
 	for (a = 1; a <= 100; a++)
-	{	
+	{
 		if ((a % 3) == 0 && (a % 5) == 0)
 		{
 			printf("FizzBuzz ");
@@ -35,4 +35,5 @@ void mainz(void)
 		printf("%d ", a);
 		}
 	}
+	return (0);
 }
