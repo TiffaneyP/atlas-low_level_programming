@@ -5,10 +5,31 @@
  *
  * Return: square root
  */
-int sqrt_a(int a, int b)
+int _sqrt_recursion(int n)
 {
-	if (b * b == a)
+	return (calsqrt(n, 0));
+}
+/**
+ * calsqrt- calc sqrt
+ * @n: in int
+ * @d: in int
+ *
+ * Return: returns an int
+ */
+
+int calsqrt(int n, int d)
+{
+	if (n < 0 || d == n)
 	{
-		return (b)
+		return (-1);
 	}
+	if (n == 0 || n == 1)
+	{
+		return (n);
+	}
+	if (d * d == n)
+	{
+		return (d);
+	}
+	return (calsqrt(n, d + 1));
 }
