@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * factor - get factor of a number
- *
+ * factorial - get factor of a number
  * @n:factor
  *
  * Return: int
@@ -17,3 +16,4 @@ int factorial(int n)
 		return (-1);
 	}
 	return (n * factorial (n - 1));
+}
