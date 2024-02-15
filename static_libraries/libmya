@@ -1,0 +1,101 @@
+!<arch>
+0-isupper.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+0-memset.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+0-strcat.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+1-isdigit.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+1-memcpy.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+1-strncat.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+100-atoi.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+2-strchr.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+2-strlen.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+2-strncpy.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+3-islower.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+3-puts.o/       0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+3-strcmp.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+3-strspn.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+4-isalpha.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+4-strpbrk.o/    0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+5-strstr.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+6-abs.o/        0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+9-strcpy.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+_putchar.o/     0           0     0     644     57        `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
