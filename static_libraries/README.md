@@ -1,2 +1,1 @@
-#!/bin/bash
-#Creating static libraries containing all the functions.
+Creating static libraries containing all the functions.
