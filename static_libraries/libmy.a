@@ -1,0 +1,49 @@
+!<arch>
+0-isupper.c/    0           0     0     644     18        `
+#include "main.h"
+0-memset.c/     0           0     0     644     18        `
+#include "main.h"
+0-strcat.c/     0           0     0     644     18        `
+#include "main.h"
+1-isdigit.c/    0           0     0     644     18        `
+#include "main.h"
+1-memcpy.c/     0           0     0     644     18        `
+#include "main.h"
+1-strncat.c/    0           0     0     644     18        `
+#include "main.h"
+100-atoi.c/     0           0     0     644     18        `
+#include "main.h"
+2-strchr.c/     0           0     0     644     18        `
+#include "main.h"
+2-strlen.c/     0           0     0     644     18        `
+#include "main.h"
+2-strncpy.c/    0           0     0     644     18        `
+#include "main.h"
+3-islower.c/    0           0     0     644     18        `
+#include "main.h"
+3-puts.c/       0           0     0     644     18        `
+#include "main.h"
+3-strcmp.c/     0           0     0     644     18        `
+#include "main.h"
+3-strspn.c/     0           0     0     644     18        `
+#include "main.h"
+4-isalpha.c/    0           0     0     644     18        `
+#include "main.h"
+4-strpbrk.c/    0           0     0     644     18        `
+#include "main.h"
+5-strstr.c/     0           0     0     644     18        `
+#include "main.h"
+6-abs.c/        0           0     0     644     18        `
+#include "main.h"
+9-strcpy.c/     0           0     0     644     18        `
+#include "main.h"
+_putchar.c/     0           0     0     644     103       `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int _putchar(char c)
+{
+	return putchar(c);
+}
+
