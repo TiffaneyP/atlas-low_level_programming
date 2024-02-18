@@ -1,14 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * string_noncat - concatenates two strings
  * @s1: string one
  * @s2: string two
  * @n: unsigned int
  *
- * Return:
+ * Return: returns a char
  */
 char *string_noncat(char *s1, char *s2, unsigned int n)
 {
@@ -31,7 +30,7 @@ char *string_noncat(char *s1, char *s2, unsigned int n)
 	else
 		l = i + n;
 
-	str = malloc(sizeof(char) * l + 1);
+	str = malloc((sizeof(char) * l + 1);
 	if (str == NULL)
 		return (NULL);
 
