@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 /**
- * string_noncat -
- * @s1:
- * @s2:
- * @n:
+ * string_noncat - concatenates two strings
+ * @s1: string one
+ * @s2: string two
+ * @n: unsigned int
  *
  * Return:
  */
 char *string_noncat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int j = 0, b = 0, t = 0, d = 0
+	unsigned int i = 0, j = 0, k = 0, l = 0
 	char *str;
 
 	if (s1 == NULL)
@@ -20,34 +20,34 @@ char *string_noncat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	while (s1[j])
-		j++;
+	while (s1[i])
+		i++;
 
-	while (s2[t])
-		t++;
+	while (s2[k])
+		k++;
 
-	if (n >= t)
-		d = j + t;
+	if (n >= k)
+		l = i + k;
 	else
-		d = j + n;
+		l = i + n;
 
-	str = malloc(sizeof(char) * d + 1);
+	str = malloc(sizeof(char) * l + 1);
 	if (str == NULL)
 		return (NULL);
 
-	t = 0;
-	while (b < d)
+	k = 0;
+	while (j < l)
 	{
-		if (b <= j)
-			str[b] = s1[b];
+		if (j <= i)
+			str[j] = s1[j];
 
-		if (b >= j)
+		if (j >= i)
 		{
-			str[b] = s2[t];
-			t++;
+			str[j] = s2[k];
+			k++;
 		}
-		b++;
+		j++;
 	}
-	str[b] = '\0';
+	str[j] = '\0';
 	return (str);
 }
