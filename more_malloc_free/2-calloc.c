@@ -7,7 +7,7 @@
  * @size: size
  * Return: return is void
  */
-void *calloc(unsigned int __nmemb, unsigned int __size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int a = 0, b = 0;
 	char *s;
