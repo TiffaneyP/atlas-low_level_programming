@@ -7,25 +7,22 @@
  * @size: size
  * Return: return is void
  */
-void *calloc(unsigned int nmemb, unsigned int size)
+void *calloc(unsigned int __nmemb, unsigned int __size)
 {
-	int i = 0, l = 0;
-	char *p;
+	int a = 0, b = 0;
+	char *s;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
+	b = nmemb * size;
+	s = malloc(b);
 
-	l = nmemb * size;
-	p = malloc(l);
-
-	if (p == NULL)
+	if (s == NULL)
 		return (NULL);
-
-	while (i < l)
+	while (a < b)
 	{
-		p[i] = 0;
-		i++;
+		s[a] = 0;
+		a++;
 	}
-
-	return (p);
+	return (s);
 }
