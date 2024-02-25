@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * free_dog - free dogs
+ * free_dog - free dog
  * @d: pointer
  */
 
