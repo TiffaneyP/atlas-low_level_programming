@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * int_index - index
+ * int_index - index of int
  * @array: array
  * @size: size 
  * @cmp: function, arg
@@ -12,3 +12,4 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
+}
